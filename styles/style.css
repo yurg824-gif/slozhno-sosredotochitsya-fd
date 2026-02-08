@@ -13,8 +13,16 @@
   background-attachment: fixed;
 }
 
-.shadow-text {
+.shadow-text-header {
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+}
+
+.shadow-text-footer {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+}
+
+.shadow-text-link {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 .cover {
@@ -59,7 +67,8 @@
   color: var(--accent-color, #ff0070);
   visibility: var(--rec-control-visible, visible);
   line-height: 24px;
-  top: calc(7px + 1.2vw);
+  text-transform: uppercase;
+  top: calc(5px + 1.2vw);
   right: calc(10px + 1.2vh);
 }
 
@@ -67,7 +76,7 @@
   content: "";
   display: inline-block;
   border-radius: 50%;
-  box-shadow: 0 0 2px 2px var(--accent-color, #ff0070);
+  box-shadow: 0 0 4px 2px var(--accent-color, #ff0070);
   background: var(--accent-color, #ff0070);
   inline-size: 9px;
   block-size: 9px;
@@ -200,7 +209,6 @@
   object-position: center;
   block-size: 100%;
   inline-size: 100%;
-
 }
 
 .footer {
@@ -209,17 +217,19 @@
 
 /*@media*/
 @media (width >= 425px) {
+
    .decorated-zone__text {
       top: calc(10px + 1vw);
       right: calc(15px + 1.3vh);
    }
+
 }
 
 @media (width >= 768px) {
 
  .decorated-zone__text {
-  top: 20px;
-  right: 30px;
+   top: 20px;
+   right: 30px;
  }
 
   .page__title {
@@ -295,10 +305,6 @@
 } /*@media (width >= 768px*/
 
 @media (width >= 1024px) {
-
-  .page__title {
-    text-shadow: 4px 4px 0 var(--color-purple-2, #ff0070);
-  }
 
   .section {
     column-gap: 30px;

@@ -3,16 +3,16 @@
   и их переопределение под различные устройства
 */
 :root {
-  
+
   --color-light-1: #fff1f7;
   --color-light-2: #f1b2ce;
   --color-light-3: #ffc2e6;
   --color-light-4: #ff8dcb;
-  
+
   --color-middle-1: #db00ff;
   --color-middle-2: #ff0070;
   --color-middle-2-glassy: #ff007040;
- 
+
   --color-dark-1: #000028;
   --color-dark-2: #353430;
   --color-dark-2-glassy: #35343040;
