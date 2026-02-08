@@ -245,7 +245,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(3, 1fr);    
+    grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
     "i1 i1 i2"
     "i3 i4 i2"
@@ -253,8 +253,7 @@
     gap: 20px;
   }
 
-  .gallery__item-sunset
-   {
+  .gallery__item-sunset {
     grid-area: i1;
    }
 
@@ -263,7 +262,7 @@
    }
 
   .gallery__item-ice {
-    grid-area: i2;    
+    grid-area: i2;
   }
 
   .gallery__item-tape {
